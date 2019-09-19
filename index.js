@@ -59,3 +59,19 @@ function findTheCheese (foods) {
 	}
 	return "no cheese!";
 }
+
+// Function that should return an array of words from a word array that start with the letter 'b'
+
+var words = ["blue", "black"]
+
+function wordsWithB(wordArr) {
+  var res = [];
+  
+  for (var i = 0; i < wordArr.length; i++) {
+    if (wordArr[i].charAt(0).toLowerCase() === "b") {
+      res.push(wordArr[i]);
+    }
+  }
+  return res;
+}
+
